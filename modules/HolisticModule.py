@@ -107,7 +107,7 @@ class HolisticDetector():
         return self.face_lmList
 
 
-    #사용
+    # 양 어깨 사이의 중심점 찾기
     def findCenter(self, p1, p2):
         x1, y1 = self.pose_lmList[p1][1:3]
         x2, y2 = self.pose_lmList[p2][1:3]

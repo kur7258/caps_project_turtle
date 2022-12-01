@@ -1,8 +1,6 @@
 import tkinter as tk # Tkinter
 from PIL import ImageTk, Image
 from numpy import size # Pillow
-import pafy
-import cv2
 
 class Show_img():
     def __init__(self):
